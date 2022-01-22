@@ -1,5 +1,3 @@
-nnoremap x "_x
-
 nnoremap + <C-a>
 " Select all
 nnoremap - <C-x>
