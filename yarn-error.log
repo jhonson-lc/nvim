@@ -1,0 +1,50 @@
+Arguments: 
+  /home/jlesc/.nvm/versions/node/v17.3.1/bin/node /home/jlesc/.nvm/versions/node/v17.3.1/bin/yarn install --ignore-engines
+
+PATH: 
+  /home/jlesc/.nvm/versions/node/v17.3.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-17.0.1.12-hotspot/bin:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.1.12-hotspot/bin:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/jlesc/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/nodejs/:/mnt/c/Users/jlesc/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/jlesc/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/jlesc/AppData/Local/Microsoft/WindowsApps:/mnt/c/w64devkit/bin:/mnt/c/tools/neovim/Neovim/bin:/mnt/c/Users/jlesc/AppData/Local/Programs/Hyper/resources/bin:/mnt/c/Users/jlesc/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/jlesc/AppData/Roaming/npm:/home/jlesc/.yarn/bin:/home/jlesc/.rvm/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  17.3.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 199.249.112.1:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+
+npm manifest: 
+  {
+    "name": "nvim",
+    "version": "1.0.0",
+    "description": "Neovim es un editor de texto basado en Vim diseñado para la extensibilidad y usabilidad,  para fomentar nuevas aplicaciones y contribuciones.",
+    "main": "index.js",
+    "scripts": {
+      "co": "sui-mono commit",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jhonson-lc/nvim.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/jhonson-lc/nvim/issues"
+    },
+    "homepage": "https://github.com/jhonson-lc/nvim#readme",
+    "devDependencies": {
+      "@s-ui/mono": "^2.18.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
