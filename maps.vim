@@ -1,7 +1,3 @@
-nnoremap + <C-a>
-" Select all
-nnoremap - <C-x>
-
 " Select all
 nmap <C-a> gg<S-v>G
 
