@@ -1,15 +1,9 @@
 " Select all
 nmap <C-a> gg<S-v>G
-
-"-----------------------------
-" Tabs
-
 " Open current directory
 nmap te :tabedit 
 nmap <S-Tab> :tabprev<Return>
 nmap <Tab> :tabnext<Return>
-
-"-----------------------------
 " Windows
 
 " Split window
@@ -36,7 +30,7 @@ nmap <C-w><up> <C-w>+
 nmap <C-w><down> <C-w>-
 
 " Ess escape settingc
-inoremap jk <Esc> """" jj key is escape setting
+inoremap jk <Esc> 
 inoremap jj <Esc> 
 inoremap kj <Esc>
 inoremap zl <Esc>o
