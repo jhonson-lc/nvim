@@ -46,6 +46,7 @@ Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'folke/lsp-colors.nvim'
 Plug 'onsails/lspkind-nvim'
+Plug 'tzachar/cmp-tabnine', { 'do': './install.sh' }
 " }}}
 
 " Git{{{
@@ -68,6 +69,7 @@ Plug 'nvim-treesitter/playground'
 " }}}
 
 " Snippets {{{
+Plug 'dsznajder/vscode-es7-javascript-react-snippets', { 'do': 'yarn install --frozen-lockfile && yarn compile' }
 Plug 'rafamadriz/friendly-snippets'
 " }}}
 " Others {{{
