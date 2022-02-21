@@ -33,10 +33,10 @@ set splitbelow
 set splitright
 set smartindent
 set autoindent
-set shiftwidth=2
+set shiftwidth=4
 set smartcase                   
-set softtabstop=2
-set tabstop=2
+set softtabstop=4
+set tabstop=4
 set termguicolors
 set updatetime=300
 set t_Co=256

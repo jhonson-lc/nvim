@@ -37,8 +37,7 @@ inoremap zl <Esc>o
 
 inoremap <C-j> <C-o>j
 inoremap <C-k> <C-o>k
-inoremap <C-l> <C-o>l
-inoremap AA <Esc>A
+inoremap <C-l> <Esc>A
 inoremap CC <Esc>C
 inoremap UU <Esc>U
 inoremap SS <Esc>S
