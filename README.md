@@ -197,3 +197,5 @@ map sl <C-w>l
 nnoremap <C-j> 10<C-e>
 nnoremap <C-k> 10<C-y>
 ```
+
+# Cualquier recomendación es importante
