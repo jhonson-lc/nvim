@@ -26,5 +26,5 @@ $ sudo apt-get install git
 $ sudo apt-get install npm
 ```
 
-- Puede utilizar un [nvm] (https://github.com/nvm-sh/nvm), para usar diferentes versiones de node.
-- Para poder visualizar los icons en la terminal es necesaria una [nerdfont] (https://www.nerdfonts.com/font-downloads)
+- Puede utilizar un [nvm](https://github.com/nvm-sh/nvm), para usar diferentes versiones de node.
+- Para poder visualizar los icons en la terminal es necesaria una [nerdfont](https://www.nerdfonts.com/font-downloads)
