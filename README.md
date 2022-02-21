@@ -44,9 +44,9 @@ $HOME/.config/nvim/
 └── utils
 ```
 
-> After/plugin: Configuraciones de los plugins instalados.
-> colors: Colores del tema
-> general: Configuraciones globales de vim
-> plug: Plugins que serán instalados con [vim-plug](https://github.com/junegunn/vim-plug)
-> plugin: Maps de los plugins
-> utils: Documentos que no tienen sentido
+> - After/plugin: Configuraciones de los plugins instalados.
+> - colors: Colores del tema
+> - general: Configuraciones globales de vim
+> - plug: Plugins que serán instalados con [vim-plug](https://github.com/junegunn/vim-plug)
+> - plugin: Maps de los plugins
+> - utils: Documentos que no tienen sentido
