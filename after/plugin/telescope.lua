@@ -7,6 +7,7 @@ local builtin = require('telescope.builtin')
 ------------------------------
 require('telescope').setup({
   defaults = {
+    file_ignore_patterns = {"node_modules","%.png","%.jpg"},
     color_devicons= true,
 		prompt_prefix = " >",
         color_devicons = true,
@@ -26,6 +27,7 @@ require('telescope').setup({
       'yarn.lock',
       '--ignore',
       'package-lock.json',
+      '.gitignore'
     },
     mappings = {
       i= {
